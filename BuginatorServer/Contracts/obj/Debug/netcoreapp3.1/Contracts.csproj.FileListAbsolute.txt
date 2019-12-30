@@ -1,0 +1,11 @@
+C:\Projects\Buginator\BuginatorServer\Contracts\bin\Debug\netcoreapp3.1\Contracts.deps.json
+C:\Projects\Buginator\BuginatorServer\Contracts\bin\Debug\netcoreapp3.1\Contracts.dll
+C:\Projects\Buginator\BuginatorServer\Contracts\bin\Debug\netcoreapp3.1\Contracts.pdb
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfoInputs.cache
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfo.cs
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.csprojAssemblyReference.cache
+C:\Projects\Buginator\BuginatorServer\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Projects\Buginator\BuginatorServer\Contracts\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Projects\Buginator\BuginatorServer\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CopyComplete

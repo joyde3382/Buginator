@@ -1,0 +1,5 @@
+C:\Projects\Buginator\BuginatorBackend\BuginatorBackend\bin\Debug\netcoreapp3.1\BuginatorBackend.deps.json
+C:\Projects\Buginator\BuginatorBackend\BuginatorBackend\bin\Debug\netcoreapp3.1\BuginatorBackend.dll
+C:\Projects\Buginator\BuginatorBackend\BuginatorBackend\obj\Debug\netcoreapp3.1\BuginatorBackend.AssemblyInfoInputs.cache
+C:\Projects\Buginator\BuginatorBackend\BuginatorBackend\obj\Debug\netcoreapp3.1\BuginatorBackend.AssemblyInfo.cs
+C:\Projects\Buginator\BuginatorBackend\BuginatorBackend\obj\Debug\netcoreapp3.1\BuginatorBackend.csprojAssemblyReference.cache

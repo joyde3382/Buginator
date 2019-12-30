@@ -1,0 +1,8 @@
+C:\Projects\Buginator\BuginatorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Projects\Buginator\BuginatorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Projects\Buginator\BuginatorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Projects\Buginator\BuginatorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Projects\Buginator\BuginatorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Projects\Buginator\BuginatorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Projects\Buginator\BuginatorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Projects\Buginator\BuginatorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
