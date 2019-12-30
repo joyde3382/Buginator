@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
+    [Table("project")]
     public class Project
     {
         public Guid ProjectId { get; set; }
@@ -18,7 +19,7 @@ namespace Entities.Models
         public string Description { get; set; }
 
        
-        public virtual ICollection<User_has_project> UserToProjects { get; set; }
+        public virtual ICollection<User_has_project> User_has_projects { get; set; }
 
         public virtual ICollection<Ticket> Tickets { get; set; }
     }

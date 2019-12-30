@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
+    [Table("user_has_project")]
     public class User_has_project
     {
         public Guid User_has_projectId { get; set; }

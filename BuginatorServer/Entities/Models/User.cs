@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
+    [Table("user")]
     public class User
     {
         public Guid UserId{ get; set; }
@@ -26,12 +27,12 @@ namespace Entities.Models
 
 
 
-        [ForeignKey(nameof(Role))]
+        [ForeignKey("Role")]
         public Guid RoleId { get; set; }
         public Role Role { get; set; }
 
-        public virtual ICollection<User_has_ticket> ticketRoles { get; set; }
-        public virtual ICollection<User_has_project> userToProjects { get; set; }
+        public virtual ICollection<User_has_ticket> User_has_tickets { get; set; }
+        public virtual ICollection<User_has_project> User_has_projects { get; set; }
 
     }
 }

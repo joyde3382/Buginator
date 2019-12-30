@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
+    [Table("role")]
     public class Role
     {
+        
         public Guid RoleId { get; set; }
 
         [Required(ErrorMessage = "RoleName is required")]

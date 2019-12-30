@@ -23,8 +23,9 @@ namespace BuginatorServer.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            var adminUsers = _repoWrapper.User.FindByCondition(x => x.Name.Equals("Jonas")); //Role.Equals(1)
-            var owners = _repoWrapper.Project.FindAll();
+            var adminUsers = _repoWrapper.User.FindAll(); //FindByCondition(x => x.Name.Equals("Jones")); //Role.Equals(1)
+            var projects = _repoWrapper.Project.FindAll();
+            var tickets = _repoWrapper.Ticket.FindAll();
 
             return new string[] { "value1", "value2" };
         }
