@@ -1,0 +1,71 @@
+2019-12-31 00:57:30.8825 INFO Returned all owners from database.
+2019-12-31 01:04:29.1425 ERROR Something went wrong inside GetAllUsers action: Unknown column 'u.RoleId' in 'field list'
+2019-12-31 01:04:30.7933 ERROR Something went wrong inside GetAllUsers action: Unknown column 'u.RoleId' in 'field list'
+2019-12-31 01:08:40.9134 ERROR Something went wrong inside GetAllUsers action: Unknown column 'u.RoleRoleId' in 'field list'
+2019-12-31 01:08:42.3119 ERROR Something went wrong inside GetAllUsers action: Unknown column 'u.RoleRoleId' in 'field list'
+2019-12-31 01:24:24.2526 INFO Returned all owners from database.
+2019-12-31 01:29:57.8291 INFO Returned user with id: 0b46e617-d6c4-4cb3-b439-03853d549125
+2019-12-31 01:42:36.9297 INFO Returned user with details for id: 0b46e617-d6c4-4cb3-b439-03853d549125
+2019-12-31 01:42:37.0743 ERROR Something went wrong inside GetUserWithDetails action: Error mapping types.
+
+Mapping types:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Type Map configuration:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Destination Member:
+UserHasTicket
+
+2019-12-31 01:42:46.4045 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 01:42:46.4500 ERROR Something went wrong inside GetUserWithDetails action: Error mapping types.
+
+Mapping types:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Type Map configuration:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Destination Member:
+UserHasProject
+
+2019-12-31 01:50:46.0377 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 01:50:46.1711 ERROR Something went wrong inside GetUserWithDetails action: Error mapping types.
+
+Mapping types:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Type Map configuration:
+User -> UserDto
+Entities.Models.User -> Entities.DataTransferObjects.UserDto
+
+Destination Member:
+UserHasProject
+
+2019-12-31 01:54:18.2054 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 01:55:37.9691 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 02:02:13.6817 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 02:06:01.4412 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 02:09:57.0643 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 11:35:51.9737 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 11:43:00.4222 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 11:52:48.6809 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 13:07:19.3054 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:07:55.1759 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:22:30.9008 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:37:13.3706 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:46:14.6916 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:49:35.5170 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:54:11.5543 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 13:57:18.7736 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 14:01:43.8164 INFO Returned all users from database.
+2019-12-31 14:03:37.2959 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 14:04:15.7680 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2019-12-31 14:05:21.0031 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2019-12-31 14:08:57.5697 INFO Returned all users from database.
+2019-12-31 14:09:07.0603 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390

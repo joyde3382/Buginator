@@ -1,25 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Entities.Models
 {
     [Table("ticket")]
-    public class Ticket
+    public partial class Ticket
     {
+        public Ticket()
+        {
+            UserHasTicket = new HashSet<UserHasTicket>();
+        }
+
         public Guid TicketId { get; set; }
-
-        [Required(ErrorMessage = "Date is required")]
-        public DateTime DateOfCreation { get; set; }
         public string Description { get; set; }
+        public DateTime DateOfCreation { get; set; }
+        public string Title { get; set; }
+        public Guid ProjectProjectId { get; set; }
 
-        [ForeignKey(nameof(Project))]
-        public Guid ProjectId { get; set; }
-        public virtual Project Project { get; set; }
-
-        public virtual ICollection<User_has_ticket> TicketRoles { get; set; }
+        public virtual Project ProjectProject { get; set; }
+        public virtual ICollection<UserHasTicket> UserHasTicket { get; set; }
     }
 }

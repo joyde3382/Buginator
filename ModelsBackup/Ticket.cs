@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
+    [Table("ticket")]
     public class Ticket
     {
         public Guid TicketId { get; set; }

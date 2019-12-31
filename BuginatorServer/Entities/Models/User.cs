@@ -1,38 +1,34 @@
-﻿using Entities.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
     [Table("user")]
-    public class User
+    public partial class User
     {
-        public Guid UserId{ get; set; }
-
-        [Required(ErrorMessage = "Name is required")]
-        [StringLength(60, ErrorMessage = "Name can't be longer than 60 characters")]
+        public User()
+        {
+            UserHasProject = new HashSet<UserHasProject>();
+            UserHasTicket = new HashSet<UserHasTicket>();
+        }
+        // use [Column("UserId")] for custom mapping
+        public Guid UserId { get; set; }
         public string Name { get; set; }
-
-        [Required(ErrorMessage = "Age is required")]
-        [StringLength(4, ErrorMessage = "Age can't be longer than 4 characters")]
         public int Age { get; set; }
-
-        [Required(ErrorMessage = "Email is required")]
-        [StringLength(60, ErrorMessage = "Email can't be longer than 60 characters")]
-        public string Email { get; set; }
-        public string Note { get; set; }
         public DateTime DateOfCreation { get; set; }
 
-
-
+        public string Email { get; set; }
+        public string Note { get; set; }
         [ForeignKey("Role")]
-        public Guid RoleId { get; set; }
-        public Role Role { get; set; }
+        public Guid RoleRoleId { get; set; }
 
-        public virtual ICollection<User_has_ticket> User_has_tickets { get; set; }
-        public virtual ICollection<User_has_project> User_has_projects { get; set; }
-
+        public virtual Role RoleRole { get; set; } = new Role("tmpRole");
+        public virtual ICollection<UserHasProject> UserHasProject { get; set; }
+        public virtual ICollection<UserHasTicket> UserHasTicket { get; set; }
     }
 }
+
+//scaffolding command to autogenerate entities
+//dotnet ef dbcontext scaffold "server=localhost;user id=root;password=Jonaspotter321;persistsecurityinfo=True;database=buginatordb" "Pomelo.EntityFrameWorkCore.MySql" -o.\Models2 -f

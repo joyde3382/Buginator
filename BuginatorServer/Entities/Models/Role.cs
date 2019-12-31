@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models
 {
     [Table("role")]
-    public class Role
+    public partial class Role
     {
-        
-        public Guid RoleId { get; set; }
+        public Role(string roleName)
+        {
+            User = new HashSet<User>();
+            RoleName = roleName;
+        }
 
-        [Required(ErrorMessage = "RoleName is required")]
-        [StringLength(60, ErrorMessage = "RoleName can't be longer than 60 characters")]
+        public Guid RoleId { get; set; }
         public string RoleName { get; set; }
 
-        public ICollection<User> Users { get; set; }
+        public virtual ICollection<User> User { get; set; }
     }
 }
