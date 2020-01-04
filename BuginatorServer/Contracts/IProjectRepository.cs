@@ -7,5 +7,6 @@ namespace Contracts
 {
     public interface IProjectRepository : IRepositoryBase<Project>
     {
+        IEnumerable<Project> ProjectsByUser(Guid projectId);
     }
 }

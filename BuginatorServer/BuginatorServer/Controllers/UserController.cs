@@ -131,5 +131,74 @@ namespace BuginatorServer.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateUser(Guid id, [FromBody]UserForUpdateDto user)
+        {
+            try
+            {
+                if (user == null)
+                {
+                    _logger.LogError("User object sent from client is null.");
+                    return BadRequest("User object is null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Invalid user object sent from client.");
+                    return BadRequest("Invalid model object");
+                }
+
+                var userEntity = _repository.User.GetUserById(id);
+                if (userEntity == null)
+                {
+                    _logger.LogError($"User with id: {id}, hasn't been found in db.");
+                    return NotFound();
+                }
+
+                _mapper.Map(user, userEntity);
+
+                _repository.User.UpdateUser(userEntity);
+                _repository.Save();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside UpdateUser action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser(Guid id)
+        {
+            try
+            {
+                var user = _repository.User.GetUserById(id);
+
+                if (user == null) // .IsEmptyObject()
+                {
+                    _logger.LogError($"User with id: {id}, hasn't been found in db.");
+                    return NotFound();
+                }
+
+                if (_repository.Project.ProjectsByUser(id).Any())
+                {
+                    _logger.LogError($"Cannot delete owner with id: {id}. It has related accounts. Delete those accounts first");
+                    return BadRequest("Cannot delete owner. It has related accounts. Delete those accounts first");
+                }
+
+                _repository.User.DeleteUser(user);
+                _repository.Save();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside DeleteUser action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
     }
 }

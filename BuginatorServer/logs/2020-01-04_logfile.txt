@@ -1,0 +1,11 @@
+2020-01-04 12:15:07.7499 ERROR Something went wrong inside GetUserById action: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call.
+2020-01-04 12:18:39.8360 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2020-01-04 12:19:22.1113 INFO Returned all users from database.
+2020-01-04 12:19:24.2936 INFO Returned all users from database.
+2020-01-04 12:19:57.3584 INFO Returned user with id: 08d78df1-8142-47ff-8fad-468533e02c0e
+2020-01-04 12:20:12.2271 ERROR Something went wrong inside UpdateUser action: An error occurred while updating the entries. See the inner exception for details.
+2020-01-04 13:06:28.1814 ERROR User with id: 08d78df1-8142-47ff-8fad-468533e02c0e, hasn't been found in db.
+2020-01-04 13:07:28.1654 ERROR User with id: 08d78df1-8142-47ff-8fad-468533e02c0e, hasn't been found in db.
+2020-01-04 13:07:33.1646 ERROR User with id: 08d78df1-8142-47ff-8fad-468533e02c0e, hasn't been found in db.
+2020-01-04 13:07:40.2857 INFO Returned all users from database.
+2020-01-04 13:07:58.2694 INFO Returned user with id: 08d78df2-8fcb-4f9f-885a-3d35fc7ca4ec
