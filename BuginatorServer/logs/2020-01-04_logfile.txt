@@ -9,3 +9,29 @@
 2020-01-04 13:07:33.1646 ERROR User with id: 08d78df1-8142-47ff-8fad-468533e02c0e, hasn't been found in db.
 2020-01-04 13:07:40.2857 INFO Returned all users from database.
 2020-01-04 13:07:58.2694 INFO Returned user with id: 08d78df2-8fcb-4f9f-885a-3d35fc7ca4ec
+2020-01-04 20:24:38.7438 ERROR Cannot delete owner with id: 08d78df2-8fcb-4f9f-885a-3d35fc7ca4ec. It has related accounts. Delete those accounts first
+2020-01-04 20:33:54.2403 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2020-01-04 20:34:07.3186 INFO Returned user with id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2020-01-04 20:34:39.6015 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2020-01-04 21:09:55.3941 INFO Returned all projects from database.
+2020-01-04 21:14:30.5831 INFO Returned project with id: c2dede6e-dc7e-402d-b0a7-5f5bea0dc7f0
+2020-01-04 21:14:58.6903 ERROR Something went wrong inside UpdateProject action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProjectForUpdateDto -> Project
+Entities.DataTransferObjects.ProjectForUpdateDto -> Entities.Models.Project
+2020-01-04 21:16:50.8065 INFO Returned project with id: c2dede6e-dc7e-402d-b0a7-5f5bea0dc7f0
+2020-01-04 21:17:00.0287 INFO Returned project with id: c2dede6e-dc7e-402d-b0a7-5f5bea0dc7f0
+2020-01-04 21:18:13.8591 INFO Returned all projects from database.
+2020-01-04 21:18:17.2640 INFO Returned all projects from database.
+2020-01-04 21:54:39.6159 INFO Returned project with id: 08d79153-04d7-4d65-8dc1-418299b4733e
+2020-01-04 21:54:52.6669 INFO Returned all projects from database.
+2020-01-04 21:55:29.2539 INFO Returned all projects from database.
+2020-01-04 21:55:43.1879 INFO Returned all projects from database.
+2020-01-04 21:55:50.4847 INFO Returned all projects from database.
+2020-01-04 21:57:06.4622 ERROR Project with id: 08d79153-04d7-4d65-8dc1-418299b4733e, hasn't been found in db.
+2020-01-04 22:04:28.2295 ERROR Project with id: 08d79153-04d7-4d65-8dc1-418299b4733e, hasn't been found in db.
+2020-01-04 22:06:12.1068 ERROR Project with id: 08d79153-04d7-4d65-8dc1-418299b4733e, hasn't been found in db.
+2020-01-04 22:06:29.4091 ERROR Project with id: 08d79153-04d7-4d65-8dc1-418299b4733e, hasn't been found in db.
+2020-01-04 22:06:35.9815 INFO Returned all projects from database.
+2020-01-04 22:07:56.1592 INFO Returned project with id: 08d79153-23b9-47ec-85b9-a6ffe39c1b74

@@ -17,6 +17,9 @@ public class MappingProfile : Profile
             CreateMap<UserForUpdateDto, User>();
 
             CreateMap<Project, ProjectDto>();
+            CreateMap<ProjectForCreationDto, Project>();
+            CreateMap<ProjectForUpdateDto, Project>();
+
             CreateMap<Ticket, TicketDto>();
             CreateMap<Role, RoleDto>();
             CreateMap<UserHasProject, UserHasProjectDto>();

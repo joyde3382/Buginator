@@ -185,8 +185,8 @@ namespace BuginatorServer.Controllers
 
                 if (_repository.Project.ProjectsByUser(id).Any())
                 {
-                    _logger.LogError($"Cannot delete owner with id: {id}. It has related accounts. Delete those accounts first");
-                    return BadRequest("Cannot delete owner. It has related accounts. Delete those accounts first");
+                    _logger.LogError($"Cannot delete user with id: {id}. It has related projects. Delete those projects first");
+                    return BadRequest("Cannot delete user. It has related projects. Delete those projects first");
                 }
 
                 _repository.User.DeleteUser(user);

@@ -31,8 +31,8 @@ namespace Repository
         public User GetUserWithDetails(Guid userId)
         {
             return FindByCondition(user => user.UserId.Equals(userId))
-                //.Include(ac => ac.UserHasProject)
-                //    .ThenInclude(userHasProject => userHasProject.ProjectProject)
+                .Include(ac => ac.UserHasProject)
+                    .ThenInclude(userHasProject => userHasProject.ProjectProject)
                 .Include(bc => bc.UserHasTicket)
                     .ThenInclude(userHasTicket => userHasTicket.TicketTicket)
                 .FirstOrDefault();

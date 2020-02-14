@@ -1,0 +1,5 @@
+2020-02-14 13:34:34.0737 INFO Returned all projects from database.
+2020-02-14 13:34:42.9793 INFO Returned all projects from database.
+2020-02-14 13:44:53.5843 INFO Returned all users from database.
+2020-02-14 13:45:10.8421 INFO Returned user with details for id: 24c08a58-d2f7-4b2e-b2f3-787ffae8e390
+2020-02-14 13:45:41.3819 INFO Returned project with id: 08d79153-23b9-47ec-85b9-a6ffe39c1b74
