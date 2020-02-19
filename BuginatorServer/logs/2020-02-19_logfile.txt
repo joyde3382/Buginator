@@ -1,0 +1,12 @@
+2020-02-19 13:44:49.9648 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2020-02-19 13:45:52.1120 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2020-02-19 13:48:37.7490 ERROR Something went wrong inside CreateUser action: An error occurred while updating the entries. See the inner exception for details.
+2020-02-19 13:54:21.2011 INFO Returned user with id: 08d7b53a-14f7-473f-88ab-b1bdcf4ba017
+2020-02-19 13:55:31.4934 ERROR User with id: 08d7b53a-14f7-473f-88ab-b1bdcf4ba017, hasn't been found in db.
+2020-02-19 14:03:09.8840 ERROR User with id: 08d7b53a-14f7-473f-88ab-b1bdcf4ba017, hasn't been found in db.
+2020-02-19 14:03:34.4501 INFO Returned all users from database.
+2020-02-19 14:13:33.7108 INFO Returned user with id: 08d7b53b-0bae-4294-8eff-0d43e1ea8575
+2020-02-19 14:15:20.0017 INFO Returned user with id: 08d7b53b-0bae-4294-8eff-0d43e1ea8575
+2020-02-19 15:35:06.8959 INFO Returned user with id: 08d7b547-e518-46ef-842c-562d58f51930
+2020-02-19 15:49:20.3668 INFO Returned user with id: 08d7b54a-c8ba-4f18-84c6-ceb879031384
+2020-02-19 15:49:40.2081 INFO Returned all projects from database.
